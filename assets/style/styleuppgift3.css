@@ -21,13 +21,11 @@ aside {
 #asidepic{
 	float:right;
 	width:200px;
-	height:0 auto;
 	text-align:right;
 }
 #asidelist {
 	float:left;
 	width:200px;
-	height:0 auto;
 	text-align:left;
 }
 main {
