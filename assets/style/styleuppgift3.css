@@ -1,0 +1,61 @@
+body {
+	background-color:black;
+}
+header {
+	background-color: orange;
+	height:80px;
+	margin:0 auto;
+	text-align:center;
+}
+aside {
+	margin-top:5px;
+	height:1080px;
+	background-color:yellow;
+	float:left;
+	width:400px;
+	border-style:solid;
+	border-width:5px;
+	border-color: white;
+	text-align:center;
+}
+#asidepic{
+	float:right;
+	width:200px;
+	height:0 auto;
+	text-align:right;
+}
+#asidelist {
+	float:left;
+	width:200px;
+	height:0 auto;
+	text-align:left;
+}
+main {
+	margin-top:5px;
+	height:1085px;
+	background-color:green;
+	width:auto;
+	padding-top:5px;
+	text-align: center;
+}
+#textcontent{
+	margin:0 auto;
+	text-align:center;
+	width:500px;
+
+
+}
+footer {
+	clear:both;
+	background-color:red;
+	width:auto;
+	height:50px;
+	text-align: center;
+}
+
+p #headerparagraf {
+	font-family: sans-serif;
+}
+h1 {
+	font-family: sans-serif;
+}
