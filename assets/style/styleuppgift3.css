@@ -42,8 +42,6 @@ main {
 	margin:0 auto;
 	text-align:center;
 	width:500px;
-
-
 }
 footer {
 	clear:both;
@@ -51,11 +49,15 @@ footer {
 	width:auto;
 	height:50px;
 	text-align: center;
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
 }
 
 p #headerparagraf {
 	font-family: sans-serif;
 }
+
 h1 {
 	font-family: sans-serif;
 }
