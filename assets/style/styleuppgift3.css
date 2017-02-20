@@ -12,15 +12,14 @@ aside {
 	height:1080px;
 	background-color:yellow;
 	float:left;
-	width:400px;
+	width:300px;
 	border-style:solid;
 	border-width:5px;
 	border-color: white;
-	text-align:center;
 }
 #asidepic{
 	float:right;
-	width:200px;
+	width:100px;
 	text-align:right;
 }
 #asidelist {
