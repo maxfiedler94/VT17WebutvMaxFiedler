@@ -1,6 +1,6 @@
 function validatePNum(sPNum)
 {
-  var numbers = sPNum.match(/^(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)$/);
+  var numbers = sPNum.match(/^(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)$/) || (/^(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)$/);
   var checkSum = 0;
 
   var d = new Date();
