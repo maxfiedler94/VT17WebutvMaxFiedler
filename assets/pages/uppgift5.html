@@ -23,7 +23,7 @@
 							<input type="button" value="Validera Person-nr" class="btn" onClick="if (validatePNum(document.forms[0].pnum.value)) { alert('Personnumret är giltigt!'); 
 							return false; } 
 							else
-							{ alert('Personnumret är inte giltigt!'); return false; }">
+							{ alert('Personnumret är inte giltigt!'); return false; }">		
 					<header>
 						<h2> Validering av Skottår</h2>
 					</header>	
@@ -31,17 +31,20 @@
 						<input type="button" value="Validera Skottar" class="btn" onClick="if (yearCheck(document.forms[0].years.value)) { alert('Året är ett skottår!'); 
 						return false; } 
 						else
-						{ alert('Året är ej ett skottår!'); return false; }">	
+						{ alert('Året är ej ett skottår!'); return false; }">
+					</form>		
 				</section>	
 				<section>
 					<header>
 						<h2> Validering av summan </h2>
 					</header>
+
 					<hr>
+					<form action="$">
 							<input onblur="validateSum()" type="text" name="nuM" id="num1" placeholder="Siffra 1" class="textInput"/><br>
 							<input onblur="validateSum()" type="text" name="nuM" id="num2" placeholder="Siffra 2" class="textInput"/><br>
 							<input type="text" name="total" id="total" placeholder="Summan" class="textInput"/>
-						
+					</form>		
 					<hr>	
 					</form>
 				</section>
