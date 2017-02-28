@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Slutuppgift </title>
+		<meta charset="utf-8">
+		<script src="../script/jquery-1.11.3.min.js"></script>
+		<script style="text/javascript" src="../script/jquery.backstretch.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../style/slutuppgiftstyle.css">
+	</head>
+	<body>
+		<header>
+			<div id ="mainheader">
+				<h1> Biskvier </h1>
+			</div>	
+		</header>
+		<div id = "wrapper">
+			<aside>
+				<a href="slutuppgifthome.html"><img src="../resource/home.jpg" height="100" width="120"></a>
+			</aside>	
+			<main>
+				<section>
+					<div id = "howto">
+						<div id ="biskPic2">
+						</div>	
+						<h2> Gör såhär: </h2>
+							<ul style="list-style-type: lower-alpha;">
+								<li> Sätt ugnen på 180 grader. </li>
+								<br>
+								<li> Riv mandelmassan på ett rivjärn och blanda med sockret.<br> Blanda i äggvita pö om pö så att den blir klumpfri.<br> Spritsa ut bottnar ca 3 cm i diameter. </li>
+								<br>
+								<li> Grädda i mitten av ugnen ca 8-10 minuter. </li>
+								<br>
+								<li> Vispa smör och florsocker vitt och fluffigt. Vispa ner äggulan. Smaksätt och färgsätt. </li>
+								<br>
+								<li> Lägg på smaksatt smörkräm på dom avsvalnade bottnarna. Kyl biskvierna med smörkräm innan de doppas i choklad. Smält chokladen, temperera den gärna, och doppa biskvierna i den </li>
+							</ul>	
+
+					</div>
+				</section>
+				<section>
+						<div id ="content">
+							 Mängd:
+						    <select class="select" id="amount" onchange="setAmount()">
+						     <option value="10">10</option>
+						     <option value="20">20</option>
+						     <option value="30">30</option>
+						     <option value="40">40</option>
+						     <option value="50">50</option>
+						    </select>
+
+							<h2> Botten </h2>
+							<ul style="list-style-type:circle">
+							  <li><span id="mandelmassa">150</span> g Mandelmassa.</li>
+							  <li><span id="sugar">5</span>msk Strösocker</li>
+							  <li><span id="eggwhites">1</span> Äggvita</li>
+							</ul> 
+							<br>
+							<h2> Smörkräm </h2>
+							<ul style="list-style-type:circle">
+							  <li><span id="butter">150</span> g Smör</li>
+							  <li><span id="florsocker">3</span> dl Florsocker</li>
+							  <li><span id="eggyellow">1</span> Äggula</li>
+							</ul> 
+							<br>
+							<h2> Choklad </h2>
+							<ul style="list-style-type:circle">
+							  <li><span id="chocolate">250</span> g Choklad</li>
+							</ul>
+							<br>
+						<h5 id="voting">LADDAR</h5>
+						<div id="starVoting">
+							<span id="icon1" class="icon"></span>
+							<span id="icon2" class="icon"></span>
+							<span id="icon3" class="icon"></span>
+							<span id="icon4" class="icon"></span>
+							<span id="icon5" class="icon"></span>
+						</div>	
+					</div>
+				</section>	
+			</main>
+			<script type="text/javascript" src="../script/amount.js"></script>
+			<script type="text/javascript" src="../script/slutuppgift.js"></script>
+			<script>
+		    $.backstretch([
+		      "../resource/cafe1.jpg",
+		      "../resource/cafe2.jpg",
+		      "../resource/cafe3.jpg"
+		      ], {
+		        fade: 750,
+		        duration: 4000
+		    });
+			</script>
+		</div>
+		<footer>
+		</footer>	
+	</body>
+</html>

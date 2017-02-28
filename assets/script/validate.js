@@ -30,7 +30,7 @@ function getYear(y) { return (y < 1000) ? y + 1900 : y; }
 
 function isDate(year, month, day)
 {
-  month = month - 1; // 0-11 in JavaScript
+  month = month - 1;
   var tmpDate = new Date(year,month,day);
   if ( (getYear(tmpDate.getYear()) == year) &&
   (month == tmpDate.getMonth()) &&
