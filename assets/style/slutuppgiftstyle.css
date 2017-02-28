@@ -73,6 +73,9 @@ main {
 	width:370px;
 	height:600px;
 }
+p#obs {
+	font-size:25px;
+}
 footer{
 	background: rgba(255, 255, 245,1);
    position:fixed;
