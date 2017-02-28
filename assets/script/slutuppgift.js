@@ -36,10 +36,6 @@ function listener(){
 	}
 }
 
-
-
-
-
 function clicked() {
 	if (!filled) {
 		var voted;
@@ -85,6 +81,7 @@ function reset(){
 	}
 	string = "";
 }
+
 function mouseOver() {
 	var fill, i, buildString;
 
