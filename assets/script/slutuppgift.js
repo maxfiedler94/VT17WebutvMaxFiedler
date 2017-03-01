@@ -22,7 +22,7 @@ function rate(){
 			}
 		}
 	}
-	xhttp.open("GET", "https://edu.oscarb.se/sjk15/api/recipe/?api_key=2f345889adaad5c6&recipe=biskvier", true);
+	xhttp.open("GET", "https://edu.oscarb.se/sjk15/api/recipe/?api_key=12610292d949d8f6&recipe=biskvi", true);
 	xhttp.send();
 }
 function listener(){
@@ -59,7 +59,7 @@ function clicked() {
 function vote(voted){
 	var vote, voteURL, xhttp;	
 		vote = voted;
-		voteURL = "https://edu.oscarb.se/sjk15/api/recipe/?api_key=2f345889adaad5c6&recipe=biskvier&rating=" + vote;
+		voteURL = "https://edu.oscarb.se/sjk15/api/recipe/?api_key=12610292d949d8f6&recipe=biskvi&rating=" + vote;
 		xhttp = new XMLHttpRequest();		
 	    xhttp.onreadystatechange = function() {
 	    if(this.readyState == 4 && this.status === 200){
