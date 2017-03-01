@@ -8,28 +8,25 @@ h1,h2,h3,h4,h5,h6{font-weight:400;margin:10px 0}
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:inherit}
 img{margin-bottom:-5px}a{color:inherit}
 header {
-	width:100%;
-	height:auto;
-	margin:0 auto;
-}
-h1 {
-	font-size:45px;
-}
-#mainheader {
 	margin-bottom:10px;
 	text-align:center;
 	width:100%;
-	height:80px;
-	background: rgba(255, 255, 230,0.65);
-	border-radius:10px;
-	
+	left:0px;
+   	bottom:0px;
+   	height:80px;
+	background:url(../resource/bg.png);
 	border:2px black solid;
 
+
+}
+h1 {
+	font-size:45px;
 }
 #wrapper {
 	width:1500px;
 	height:100%;
 	position:relative;
+
 }
 main {
 	margin:0 auto;
@@ -44,7 +41,7 @@ main {
 	height:600px;
 	float:right;
 }
-#biskPic2 {
+img#biskpic2 {
 	width:500px;
 	height:300px;
 	border-radius:25px;
@@ -52,7 +49,7 @@ main {
 	background-image:url(../resource/biskvier.jpg);
 
 }
-#biskPic {
+img#biskpic1 {
 	border-radius:15px;
 	background-image:url(../resource/biskvi2.jpg);
 	background-repeat: no-repeat;
@@ -60,21 +57,12 @@ main {
 	width:370px;
 	height:300px;
 	float:right;
-
-}
-#content {
-	float:left;
-	margin:0 auto;
-	padding:5px;
-	border-radius:25px;
-	width:370px;
-	height:600px;
 }
 p#obs {
 	font-size:25px;
 }
 footer{
-	background: rgba(255, 255, 245,1);
+	background:url(../resource/bg.png);
    position:fixed;
    left:0px;
    bottom:0px;

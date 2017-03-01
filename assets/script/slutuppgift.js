@@ -35,7 +35,6 @@ function listener(){
 		iconListeners[i].addEventListener("mouseout", mouseOut);
 	}
 }
-
 function clicked() {
 	if (!filled) {
 		var voted;
@@ -55,7 +54,6 @@ function clicked() {
 		vote(voted);
 	}
 }
-
 function vote(voted){
 	var vote, voteURL, xhttp;	
 		vote = voted;

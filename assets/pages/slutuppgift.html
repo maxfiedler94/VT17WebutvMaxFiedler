@@ -9,9 +9,7 @@
 	</head>
 	<body>
 		<header>
-			<div id ="mainheader">
 				<h1> Biskvier </h1>
-			</div>	
 		</header>
 		<div id = "wrapper">
 			<aside>
@@ -20,8 +18,7 @@
 			<main>
 				<section>
 					<div id = "howto">
-						<div id ="biskPic2">
-						</div>	
+						<img id="biskpic2" src="../resource/biskvier.jpg" alt="biskvi2">
 						<h2> Gör såhär: </h2>
 							<ul style="list-style-type: lower-alpha;">
 								<li> Sätt ugnen på 180 grader. </li>
@@ -30,50 +27,46 @@
 								<li> Vispa smör och florsocker vitt och fluffigt. Vispa ner äggulan. Smaksätt och färgsätt. </li>
 								<li> Lägg på smaksatt smörkräm på dom avsvalnade bottnarna. Kyl biskvierna med smörkräm innan de doppas i choklad. Smält chokladen, temperera den gärna, och doppa biskvierna i den </li>
 							</ul>	
-
 					</div>
 				</section>
 				<section>
-						<div id ="content">
-							 Mängd:
-						    <select class="select" id="amount" onchange="setAmount()">
-						     <option value="10"> 10 </option>
-						     <option value="20"> 20 </option>
-						     <option value="30"> 30 </option>
-						     <option value="40"> 40 </option>
-						     <option value="50"> 50 </option>
-						    </select>
-
-							<h2> Botten </h2>
-							<ul style="list-style-type:circle">
-							  <li><span id="mandelmassa">150</span> g Mandelmassa.</li>
-							  <li><span id="sugar">5</span>msk Strösocker</li>
-							  <li><span id="eggwhites">1</span> Äggvita</li>
-							</ul> 
-							<br>
-							<h2> Smörkräm </h2>
-							<ul style="list-style-type:circle">
-							  <li><span id="butter">150</span> g Smör</li>
-							  <li><span id="florsocker">3</span> dl Florsocker</li>
-							  <li><span id="eggyellow">1</span> Äggula</li>
-							</ul> 
-							<br>
-							<h2> Choklad </h2>
-							<ul style="list-style-type:circle">
-							  <li><span id="chocolate">250</span> g Choklad</li>
-							</ul>
-							<br>
-						<h5 id="voting">LADDAR</h5>
-						<div id="starVoting">
-							<span id="icon1" class="icon"></span>
-							<span id="icon2" class="icon"></span>
-							<span id="icon3" class="icon"></span>
-							<span id="icon4" class="icon"></span>
-							<span id="icon5" class="icon"></span>
-						</div>	
-					</div>
+						 Mängd:
+					    <select class="select" id="amount" onchange="setAmount()">
+					     <option value="10"> 10 </option>
+					     <option value="20"> 20 </option>
+					     <option value="30"> 30 </option>
+					     <option value="40"> 40 </option>
+					     <option value="50"> 50 </option>
+					    </select>
+						<h2> Botten </h2>
+						<ul style="list-style-type:circle">
+						  <li><span id="mandelmassa">150</span> g Mandelmassa.</li>
+						  <li><span id="sugar">5</span>msk Strösocker</li>
+						  <li><span id="eggwhites">1</span> Äggvita</li>
+						</ul> 
+						<br>
+						<h2> Smörkräm </h2>
+						<ul style="list-style-type:circle">
+						  <li><span id="butter">150</span> g Smör</li>
+						  <li><span id="florsocker">3</span> dl Florsocker</li>
+						  <li><span id="eggyellow">1</span> Äggula</li>
+						</ul> 
+						<br>
+						<h2> Choklad </h2>
+						<ul style="list-style-type:circle">
+						  <li><span id="chocolate">250</span> g Choklad</li>
+						</ul>
+						<br>
+					<h5 id="voting">LADDAR</h5>
+					<div id="starVoting">
+						<span id="icon1" class="icon"></span>
+						<span id="icon2" class="icon"></span>
+						<span id="icon3" class="icon"></span>
+						<span id="icon4" class="icon"></span>
+						<span id="icon5" class="icon"></span>
 				</section>	
 			</main>
+		</div>
 			<script type="text/javascript" src="../script/amount.js"></script>
 			<script type="text/javascript" src="../script/slutuppgift.js"></script>
 			<script>
