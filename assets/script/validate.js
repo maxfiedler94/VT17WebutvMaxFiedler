@@ -1,18 +1,22 @@
 function validatePNum(sPNum)
 {
-  var numbers = sPNum.match(/^(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)$/) || (/^(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)$/);
-  var checkSum = 0;
+  if (sPNum.length == 12){
+    sPNum=sPNum.substring(2,12); 
+  }
 
+  
+  var numbers = sPNum.match(/^(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)(\d)$/);
+  var checkSum = 0;
   var d = new Date();
-  if (!isDate(sPNum.substring(0,4),sPNum.substring(4,6),sPNum.substring(6,8))) {
-    alert("Datum " + sPNum.substring(0,8) + " är fel.");
+  if (!isDate(sPNum.substring(0,2),sPNum.substring(2,4),sPNum.substring(4,6))) {
+    alert("Datum " + sPNum.substring(0,6) + " är fel.");
     return false;
   }
 
   if (numbers == null) { return false; }
 
   var n;
-  for (var i = 3; i <= 12; i++)
+  for (var i = 1; i <= 10; i++)
   {
     n=parseInt(numbers[i]);
     if (i % 2 == 0) {
@@ -32,7 +36,7 @@ function isDate(year, month, day)
 {
   month = month - 1;
   var tmpDate = new Date(year,month,day);
-  if ( (getYear(tmpDate.getYear()) == year) &&
+  if (( tmpDate.getYear() ==year) &&
   (month == tmpDate.getMonth()) &&
   (day == tmpDate.getDate()) )
     return true;
